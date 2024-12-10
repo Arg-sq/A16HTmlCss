@@ -38,6 +38,24 @@
             padding: 4px 10px;
             border-radius: 8px;
         }
+        .container{
+            max-width: 1024px;
+        }
+        section{
+            margin-bottom: 20px; 
+        }
+        section h2{
+            border-bottom: 1px solid #000;
+            padding-bottom: 6px;
+        }
+        .grid{
+            display: grid;
+            gap:12px;
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        }
+        .card{
+            border:1px solid black;
+        }
 
     </style>
    </head> 
@@ -52,20 +70,26 @@
         <a href="#JS">JS</a>
         <a href="#React">React</a>
     </nav>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eius rem officiis cum unde? Aliquam labore provident vitae cum iure fuga, tenetur placeat quasi unde natus facilis laudantium hic corrupti?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, iure? Odio fugiat quas consectetur perspiciatis quasi ad, unde asperiores architecto maiores tenetur deserunt quidem dolorum porro, culpa nihil aspernatur possimus.</p>
+    <div class="container">
+        <section id="html">
+            <h2>HTML</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>What is HTML?</h3>
+                    <p>HTML stands for HyperText Markup Language. It is used to create web pages.
+                </div>
+                <div class="card">
+                    <h3>What is HTML?</h3>
+                    <p>HTML stands for HyperText Markup Language. It is used to create web pages.
+                </div>
+               
+
+            </div>
+
+        </section>
+
+    </div>
+   
 
    </body>
 
